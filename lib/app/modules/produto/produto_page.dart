@@ -18,7 +18,7 @@ class _ProdutoPageState extends ModularState<ProdutoPage, ProdutoController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.nomeDaLoja),
+        title: Text(widget.nomeDaLoja + " - Lista de Produtos"),
       ),
       body: ListView.builder(
         itemCount: 20,

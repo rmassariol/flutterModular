@@ -2,6 +2,8 @@
 // flutter create modular
 // code .
 
+//slidy start
+
 // criando o modulo
 
 // slidy g m modules/compra -c

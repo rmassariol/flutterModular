@@ -18,6 +18,13 @@ class _LojaPageState extends ModularState<LojaPage, LojaController> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        actions: <Widget>[
+          IconButton(
+              icon: Icon(Icons.shopping_cart),
+              onPressed: () {
+                Modular.to.pushNamed('/compra/carrinho/vindo da loja');
+              })
+        ],
       ),
       body: ListView.builder(
         itemCount: 20,
